@@ -1,0 +1,42 @@
+body {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 8% auto 10px;
+}
+
+.logo {
+  width: 220px;
+  height: 220px;
+}
+
+.caption {
+  font-size: 56px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.desc {
+  margin: 0;
+  font-size: 24px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.socialButtons {
+  margin-top: 20px;
+}
+.socialButtons a {
+  display: inline-block;
+}
+.socialButtons a:hover i {
+  color: black;
+}
+.socialButtons a i {
+  font-size: 24px;
+  color: gray;
+}
+
+/*# sourceMappingURL=master.css.map */
