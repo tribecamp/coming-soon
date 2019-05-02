@@ -26,14 +26,18 @@ body {
 }
 
 .socialButtons {
-  margin-top: 10px;
-}
+  margin-top: 20px;
 
-.socialButtons > div i {
-  font-size: 24px;
-  color: gray;
-}
+  a {
+    display: inline-block;
 
-.socialButtons > div:hover i {
-  color: black;
+    &:hover i {
+      color: black;
+    }
+
+    i {
+      font-size: 24px;
+      color: gray;
+    }
+  }
 }
