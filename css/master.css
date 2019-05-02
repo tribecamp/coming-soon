@@ -24,3 +24,16 @@ body {
   font-weight: lighter;
   color: gray;
 }
+
+.socialButtons {
+  margin-top: 10px;
+}
+
+.socialButtons > div i {
+  font-size: 24px;
+  color: gray;
+}
+
+.socialButtons > div:hover i {
+  color: black;
+}
