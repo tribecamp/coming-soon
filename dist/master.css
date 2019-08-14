@@ -16,7 +16,7 @@ body {
 }
 
 .containerContent {
-  padding: 8% auto 0;
+  padding: 10% auto 0;
   background: rgba(0, 0, 0, 0.6);
   height: 100%;
 }
@@ -55,9 +55,47 @@ body {
   color: #d2d2d2;
 }
 
-.socialButtons {
-  margin-top: 20px;
+@keyframes pulse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
 }
+.liveIn {
+  display: block;
+  margin-top: 30px;
+  font-size: 28px;
+  color: white;
+}
+.liveIn span {
+  vertical-align: middle;
+}
+.liveIn .circle {
+  display: inline-block;
+  animation: pulse 1s linear infinite alternate;
+  margin-right: 4px;
+  background: red;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.countdownContainer {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 6px;
+  color: white;
+  background: rgba(0, 0, 0, 0.295);
+}
+
+#countdown {
+  font-size: 8vw;
+}
+
 .socialButtons a {
   display: inline-block;
   margin-left: 10px;
