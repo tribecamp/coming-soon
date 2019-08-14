@@ -61,6 +61,11 @@ body {
 
   a {
     display: inline-block;
+    margin-left: 10px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
 
     &:hover i {
       color: rgb(225, 225, 225);

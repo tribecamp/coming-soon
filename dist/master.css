@@ -60,6 +60,10 @@ body {
 }
 .socialButtons a {
   display: inline-block;
+  margin-left: 10px;
+}
+.socialButtons a:first-of-type {
+  margin-left: 0;
 }
 .socialButtons a:hover i {
   color: #e1e1e1;
