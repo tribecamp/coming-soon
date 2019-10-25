@@ -1,6 +1,5 @@
 const countdown = document.getElementById('countdown');
-const _launchDate = new Date('Fri Sep 06 2019 20:00:00 GMT+0200 (Central European Summer Time)');
-const launchDate = moment(_launchDate);
+const launchDate = moment('2019-11-01 21:00:00');
 
 function getCountdownFormat(hours, minutes, seconds, milliseconds) {
   return `${hours}:${minutes}:${seconds}.${milliseconds}`;
